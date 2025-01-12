@@ -79,7 +79,7 @@ function checkAns(idx) {
             document.querySelector("body").style.backgroundColor = "white";
         }, 150)
         maxScore = Math.max(maxScore, level-1);
-        h4.innerText = `high score : ${maxScore}`;
+        h4.innerText = `max score : ${maxScore}`;
         reset();
     }
 }
